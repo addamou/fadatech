@@ -1,0 +1,21 @@
+/* css du formulaire de s'inscrire*/
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+     max-width: 370px;
+     max-height: 320px;
+    padding: 10px 40px;
+	background: green;
+	    color: #FFF;
+    text-shadow: none;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+}
+/*css pages connaissances*/
+#page{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+    background: url(image/fond-1.jpg);
+}
