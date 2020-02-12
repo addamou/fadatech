@@ -10222,3 +10222,20 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+#card-sign{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+     max-width: 370px;
+     max-height: 320px;
+    padding: 10px 40px;
+	background: green;
+	    color: #FFF;
+    text-shadow: none;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+max-width: 290px;
+min-height: 230px;
+}
+/*css additionnel*/
