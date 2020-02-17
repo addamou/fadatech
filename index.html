@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-desktop/css/all.min.css">
 </head>
 <body>
     <!--barre de navigation-->
@@ -37,124 +38,140 @@
             </div>
         </div>
     </nav>
-</br>
+
     <!--contenaire de de ma page-->
-    <content class="container-fluid bg-white text-align-center">
-        <div class="card text-white container-fluid" id="images">
-                <img class="card-img images" src="image/fond-1.jpg" alt="Card image" style="max-height: 660px;">
-            <div class="card-img-overlay d-flex align-items-center" style="background: rgba(0,0,0,.8); flex-flow: row wrap;">
-                    <div class="container card-block col-md-6 col-lg-8 col-xl-11 checknone" style="max-width: 45%;">
-                        <h1>Partages tes connaissances </br> avec tes amis</h1>
-                        <form class="form-group col-xs-none">
-                            <div class="row col-md-12 col-lg-12">
-                                <div class="container form-check-input icones mt-3" >
-                                    <img src="image/check-box.png" alt="icon" class="icons">
+    <content class="container-fluid">
+        <div class="card text-white container-fluid p-0  boite-voile">
+            <img class="bg m-0 card-fluid image-voile p-0" src="image/fond-1.jpg" alt="image" style="max-height: 540px;">
+            <div class="card-img-overlay p-5 container-fluid boite-voile align-content-center"
+                style="background: linear-gradient(rgba(63, 74, 170, 0.8), rgba(91, 167, 148, 0.8)); flex-flow: row wrap;max-height: 540px;">
+                <div class="container justify-content-around">
+                    <div class="card-desk row card-inverse align-content-center ">
+                        <div class="card-body form-group checknone col-md-6 col-lg-6 col-xl-6 my-2 " style="width: 21rem;">
+                            <h5 class="card-title h3">Partages tes connaissances </br> avec tes amis
+                            </h5>
+                            <div class="card-text text-center">
+                                <!--checks box 1-->
+                                <div class="container-fluid d-flex text-left">
+                                    <span>
+                                        <i class="fa fa-check-square h1 mt-1"></i>
+                                    </span>
+                                    <p class="ml-3"> quos laborum aut culpa delectus est perferendis eveniet, odio sequi
+                                        incidunt libero.</p>
                                 </div>
-                                
-                                <label for="form-check" class="h6 ml-5 mt-3 pl-4">Lorem ipsum dolor sit
-                                    quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt libero.</label>
-                                </div>
-
-                            <div class="row col-md-12 col-lg-12">
-                                <div class="container form-check-input icones mt-3">
-                                    <img src="image/check-box.png" alt="icon" class="icons">
-                                </div>
-                            
-                                <label for="form-check" class="h6 ml-5 mt-3 pl-4">Lorem ipsum dolor sit
-                                    quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt libero.</label>
                             </div>
-
-                            <div class="row col-md-12 col-lg-12">
-                                <div class="container form-check-input icones mt-3" >
-                                    <img src="image/check-box.png" alt="icon" class="icons">
-                                </div>
-                                
-                                <label for="form-check" class="h6 ml-5 mt-3 pl-4">Lorem ipsum dolor sit
-                                    quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt libero.</label>
+                            <!--checks box 2-->
+                            <div class="container-fluid d-flex text-left">
+                                <span>
+                                    <i class="fa fa-check-square h1 mt-1"></i>
+                                </span>
+                                <p class="ml-3"> quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt
+                                    libero.</p>
                             </div>
-                        </form>
-                    </div>
-                        
-                    <div class="card-block col-xs-10 col-sm-10 col-md-2 col-lg-2 col-xl-1 text-center mb-5" id="card-sign">
-                        <h5>S'inscrire</h5>
+                            <!--checks box 3-->
+                            <div class="container-fluid d-flex text-left">
+                                <span>
+                                    <i class="fa fa-check-square h1 mt-1"></i>
+                                </span>
+                                <p class="ml-3"> quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt
+                                    libero.</p>
+                            </div>
+                        </div>
+                        <!--formulaire-->
+                        <div class="container col-md-5 col-lg-5 col-xl-5 mt-5">
+                            <div class="text-center p-1" id="card-sign" style="max-width: 320px;">
+                                <h5>S'inscrire</h5>
                                 <span>Remplissez ce formulaire</span>
-                            <form class="form" method="post" action="#">
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" name="name" id="name" placeholder="Nom" />
+                                <form class="form p-1" method="post" action="#">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"></span>
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Nom" />
+                                        </div>
                                     </div>
-                                </div>
-                    
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" name="email" placeholder="Email" />
+        
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"></span>
+                                            <input type="text" class="form-control" name="email" placeholder="Email" />
+                                        </div>
                                     </div>
-                                </div>
-                    
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" name="password" placeholder="Password" />
+        
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"></span>
+                                            <input type="text" class="form-control" name="password" placeholder="Password" />
+                                        </div>
                                     </div>
-                                </div>
-                    
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                                        <input type="password" class="form-control" name="confirm" placeholder="Confirm Password" />
+        
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"></span>
+                                            <input type="password" class="form-control" name="confirm"
+                                                placeholder="Confirm Password" />
+        
+                                        </div>
                                     </div>
-                                </div>
-                                    <button type="submit" style=" width: 190px; background-color: #c99d0b; border: none;">Submit</button>
-                            </form>
+                                    <button type="submit" class="form-control mb-3"
+                                        style="background-color: #c99d0b; border: none;">Submit</button>
+                                </form>
+                            </div>
+        
+        
+                            <!--fin formulaire-->
+                        </div>
                     </div>
+                </div>
             </div>
         </div>
-        
+            
         <!--Explorer-->
-        <div id="explorer" class="jumbotron bg-dark" style="text-align: center; color: #fff;">
-            <h1 class="display-5">Explorer</h1>
+        <div id="explorer" class="container-fluid  bg-dark" style="text-align: center; color: #fff;">
+            <div class=" container bg-dark p-2 pb-4">
+            <h1  class="display-5 mt-5">Explorer</h1>
             <p class="text-align-center">Lorem ipsum dolor sit amet laborum aut culpa delectus est perferendis eveniet, odio sequi  consectetur adipisicing elit. Nobis blanditiis incidunt cumque? Et neque debitis vel illo hic
                 aliquid distinctio, ducimus nobis. Delectus, dignissimos error quasilaborum aut culpa delectus est perferendis eveniunde possimus nesciunt.</p>
             <a class="btn btn-outline-light bg-dark" href="#" role="button">Voir plus</a>
+            </div>
         </div>
         <!--page explorer-->
-        <div class="row">
-            <div class=" container col-sm-6 col-md-6 col-lg-5 col-xl-5">
-                <div class=" card-img">
-                    <img src="image/codeloccol-1.jpg" alt="icon" class="card-img mb-4 container" style="max-height: 260px;">
-                </div>
-            </div>
-            <div class="col-sm-6 p-4 container">
-                <div class=" text-justify">
-                    <h5 class="card-title">Explorer les projets innovants</h5>
-                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum possimus velit odio nemo, deleniti repellat mollitia odit
-                            a alias distinctio maiores tempora officiis laborum eos!
-                            Lorem vel molestias vero, maiores nobis suscipit nesciunt.</p>
-                    <div class="form-check my-4 text-height-2">
-                        <svg class="form-check-input btn-light bg-white" xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 24 24"
-                                    width="50">
-                            <path d="M0 0h24v24H0z" fill="none" />
-                            <path
-                                 d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                        </svg>
-                        <label for="form-check" class="h6 ml-5 mt-2">Lorem ipsum dolor sit
-                                    quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt libero.</label>
+        <div class="container-fluid">
+            <div class="container row p-2">
+                <div class="col-md-5 col-lg-5 col-xl-5">
+                    <div class=" card-img mt-5">
+                        <img src="image/codeloccol-1.jpg" alt="icon" class="card-img mb-4 container" style="max-height: 260px;">
                     </div>
-                        <div class="form-check my-4">
-                            <svg class="form-check-input btn-light bg-white" xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 24 24"
-                                    width="50">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <path
-                                    d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                            </svg>
-                            <label for="form-check" class="h6 ml-5 mt-2">Lorem ipsum dolor sit
-                                    quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt libero.</label>
+                </div>
+                <div class="col-md-7 col-lg-7 col-xl-7 ">
+                    <div class=" text-justify">
+                        <h5 class="card-title h2">Explorer les projets innovants</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum possimus velit odio nemo, deleniti repellat mollitia odit
+                                a alias distinctio maiores tempora officiis laborum eos!
+                                Lorem vel molestias vero, maiores nobis suscipit nesciunt.</p>
+                        <div class="card-text my-4 text-height-2">
+                
+                            <!--checks box 1-->
+                            <div class="container-fluid d-flex text-left">
+                                <span>
+                                    <i class="fa fa-check-square h1 mt-1"></i>
+                                </span>
+                                <p class="ml-3"> Lorem ipsum dolor sit
+                                quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt libero.</p>
+                            </div>
+                            
+                            <!--checks box 2-->
+                            <div class="container-fluid d-flex text-left">
+                                <span>
+                                    <i class="fa fa-check-square h1 mt-1"></i>
+                                </span>
+                                <p class="ml-3">Lorem ipsum dolor sit
+                                quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt libero.</p>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
+        </div>
             <!--Créer-->
             <div id="creer" class="jumbotron bg-success mb-0" style="text-align: center; color: #fff;">
                 <h1 class="display-5">Créer</h1>
@@ -165,31 +182,31 @@
             </div>
             <!--page créer-->
             <div class="row bg-dark text-light p-4">
-                <div class="col-sm-6">
+                <div class="col-md-7 col-lg-7 col-xl-7">
                     <div class=" card-block text-justify container" >
-                        <h5 class="card-title">Créer des solutions</h5>
+                        <h5 class="card-title h2">Créer des solutions</h5>
                         <p class="card-text">Loremmet consectetur adipisicing elit. Eum possimus velit odio nemo,
                             deleniti repellat  autem quaerat distinctio maiores tempora officiis laborum eos!
                             Lorem vel molestias vero,it nesciunt.</p>
-                        <div class="row col-md-12 col-lg-12">
-                            <div class="container form-check-input icones mt-3">
-                                <img src="image/check-box.png" alt="icon" class="icons">
-                            </div>
-                        
-                            <label for="form-check" class="h6 ml-5 mt-3 pl-4">Lorem ipsum dolor sit
-                                quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt libero.</label>
+                        <!--checks box 1-->
+                        <div class="container-fluid d-flex text-left">
+                            <span>
+                                <i class="fa fa-check-square h1 mt-1"></i>
+                            </span>
+                            <p class="ml-3"> Lorem ipsum dolor sit quos laborum aut culpa delectus est perferendis 
+                                eveniet, odio sequi incidunt libero.</p>
                         </div>
-                        <div class="row col-md-12 col-lg-12">
-                            <div class="container form-check-input icones mt-3">
-                                <img src="image/check-box.png" alt="icon" class="icons">
-                            </div>
-                        
-                            <label for="form-check" class="h6 ml-5 mt-3 pl-4">Lorem ipsum dolor sit
-                                quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt libero.</label>
+                        <!--checks box 1-->
+                        <div class="container-fluid d-flex text-left">
+                            <span>
+                                <i class="fa fa-check-square h1 mt-1"></i>
+                            </span>
+                            <p class="ml-3"> Lorem ipsum dolor sit quos laborum aut culpa delectus est perferendis
+                                eveniet, odio sequi incidunt libero.</p>
                         </div>
                     </div>
                 </div> 
-                <div class=" container col-sm-6 col-md-6 col-lg-5 col-xl-5">
+                <div class=" container col-md-5 col-lg-5 col-xl-5">
                     <div class=" card-img container">
                         <img src="image/image-4.jpg" alt="icon" class="card-img mb-4" style="max-height: 260px;">
                     </div>
@@ -204,38 +221,35 @@
                 <a class="btn btn-outline-light bg-success" href="#" role="button">Voir plus</a>
             </div>
             <!--page partager-->
-            <div class="row">
+            <div class="row ">
                 <div class=" container col-sm-6 col-md-6 col-lg-5 col-xl-5 container partager">
                     <div class=" card-img mt-4">
                         <img src="image/comminity.jpg" alt="icon" class="card-img mb-4" style="max-height: 260px;">
                     </div>
                 </div>
                 <div class="col-sm-6 p-4">
-                    <div class=" text-justify container">
+                    <div class=" text-justify ">
                         <h5 class="card-title">Partage tes créations</h5>
                         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum possimus ,
                             deleniti repellat mollitia odita alias distinctio maiores tempora officiis laborum eos!
                             Lorem vel molestias vero, maiores nobis suscipit nesciunt.</p>
-                        <div class="form-check my-4 text-height-2">
-                            <svg class="form-check-input btn-light bg-white" xmlns="http://www.w3.org/2000/svg" height="50"
-                                viewBox="0 0 24 24" width="50">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <path
-                                    d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                            </svg>
-                            <label for="form-check" class="h6 ml-5 mt-2">Lorem ipsum dolor sit
-                                quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt libero.</label>
-                        </div>
-                        <div class="form-check my-4">
-                            <svg class="form-check-input btn-light bg-white" xmlns="http://www.w3.org/2000/svg" height="50"
-                                viewBox="0 0 24 24" width="50">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <path
-                                    d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                            </svg>
-                            <label for="form-check" class="h6 ml-5 mt-2">Lorem ipsum dolor sit
-                                quos laborum aut culpa delectus est perferendis eveniet, odio sequi incidunt libero.
-                            </label>
+                        <div class=" text-height-2">
+                            <!--checks box 1-->
+                            <div class="container-fluid d-flex text-left">
+                                <span>
+                                    <i class="fa fa-check-square h1 mt-1"></i>
+                                </span>
+                                <p class="ml-3"> Lorem ipsum dolor sit quos laborum aut culpa delectus est perferendis
+                                    eveniet, odio sequi incidunt libero.</p>
+                            </div>
+                            <!--checks box 1-->
+                            <div class="container-fluid d-flex text-left">
+                                <span>
+                                    <i class="fa fa-check-square h1 mt-1"></i>
+                                </span>
+                                <p class="ml-3"> Lorem ipsum dolor sit quos laborum aut culpa delectus est perferendis
+                                    eveniet, odio sequi incidunt libero.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
